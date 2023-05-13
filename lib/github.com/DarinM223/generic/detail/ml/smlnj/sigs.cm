@@ -1,0 +1,49 @@
+(* Copyright (C) 2007-2008 SSH Communications Security, Helsinki, Finland
+ *
+ * This code is released under the MLton license, a BSD-style license.
+ * See the LICENSE file or http://mlton.org/License for details.
+ *)
+
+group is
+   $MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm
+   $MLTON_LIB/com/ssh/prettier/unstable/lib.cm
+   $MLTON_LIB/com/ssh/random/unstable/lib.cm
+   ../../../public/extra/generic-extra.sig
+   ../../../public/framework/cases.sig
+   ../../../public/framework/closed-cases.sig
+   ../../../public/framework/closed-rep.sig
+   ../../../public/framework/generic.sig
+   ../../../public/framework/generics.sig
+   ../../../public/framework/layer-cases-fun.sig
+   ../../../public/framework/layer-dep-cases-fun.sig
+   ../../../public/framework/layer-rep-fun.sig
+   ../../../public/framework/layered-rep.sig
+   ../../../public/framework/open-cases.sig
+   ../../../public/framework/open-rep.sig
+   ../../../public/framework/rep.sig
+   ../../../public/framework/ty.sig
+   ../../../public/util/generics-util.sig
+   ../../../public/value/arbitrary.sig
+   ../../../public/value/data-rec-info.sig
+   ../../../public/value/dynamic.sig
+   ../../../public/value/enum.sig
+   ../../../public/value/eq.sig
+   ../../../public/value/fmap.sig
+   ../../../public/value/hash.sig
+   ../../../public/value/ord.sig
+   ../../../public/value/pickle.sig
+   ../../../public/value/pretty.sig
+   ../../../public/value/read.sig
+   ../../../public/value/reduce.sig
+   ../../../public/value/seq.sig
+   ../../../public/value/shrink.sig
+   ../../../public/value/size.sig
+   ../../../public/value/some.sig
+   ../../../public/value/transform.sig
+   ../../../public/value/type-exp.sig
+   ../../../public/value/type-hash.sig
+   ../../../public/value/type-info.sig
+   ../../../public/value/uniplate.sig
+   ../../framework/generics.sml
+   ../../framework/ty.sml
+   ../../util/sml-syntax.sml

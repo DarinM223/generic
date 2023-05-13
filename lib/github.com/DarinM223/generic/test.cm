@@ -1,0 +1,22 @@
+(* Copyright (C) 2007-2008 SSH Communications Security, Helsinki, Finland
+ *
+ * This code is released under the MLton license, a BSD-style license.
+ * See the LICENSE file or http://mlton.org/License for details.
+ *)
+
+group
+   library($APPLICATION/generic.cm)
+   library($MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm)
+   library($MLTON_LIB/com/ssh/prettier/unstable/lib.cm)
+   library($MLTON_LIB/com/ssh/random/unstable/lib.cm)
+   library($MLTON_LIB/com/ssh/unit-test/unstable/lib.cm)
+   library(lib.cm)
+   source(-)
+is
+   $APPLICATION/generic.cm
+   $MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm
+   $MLTON_LIB/com/ssh/prettier/unstable/lib.cm
+   $MLTON_LIB/com/ssh/random/unstable/lib.cm
+   $MLTON_LIB/com/ssh/unit-test/unstable/lib.cm
+   lib.cm
+   test/utils.fun
