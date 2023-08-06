@@ -5,9 +5,9 @@
  *)
 
 group is
-   $MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm
-   $MLTON_LIB/com/ssh/prettier/unstable/lib.cm
-   $MLTON_LIB/com/ssh/random/unstable/lib.cm
+   ../../../../extended-basis/basis.cm
+   ../../../../prettier/lib.cm
+   ../../../../random/lib.cm
    ../../../public/extra/generic-extra.sig
    ../../../public/framework/cases.sig
    ../../../public/framework/closed-cases.sig

@@ -4,13 +4,9 @@
  * See the LICENSE file or http://mlton.org/License for details.
  *)
 
-lib ["${MLTON_LIB}/org/mlton/vesak/ds/unstable/lib.use",
-     "${MLTON_LIB}/org/mlton/vesak/parsec/unstable/lib.use",
-     "${MLTON_LIB}/com/ssh/extended-basis/unstable/basis.use",
-     "${MLTON_LIB}/com/ssh/prettier/unstable/lib.use",
-     "${MLTON_LIB}/com/ssh/random/unstable/lib.use",
+List.app use [
      "detail/ml/common/cast-real.sig",
-     "detail/ml/${SML_COMPILER}/extensions.use",
+     "detail/ml/polyml/extensions.sml",
      "public/framework/generics.sig",
      "detail/util/sml-syntax.sml",
      "detail/framework/generics.sml",

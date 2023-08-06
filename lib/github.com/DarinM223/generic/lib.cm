@@ -7,6 +7,6 @@
 library
    source(-)
 is
-   $MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm
+   ../extended-basis/basis.cm
    detail/ml/smlnj/unsealed.cm
    public/export.sml
