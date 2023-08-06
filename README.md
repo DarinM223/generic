@@ -37,9 +37,7 @@ for the things you want to derive.
 For building with Poly/ML, you would want a build script similar to [this](https://raw.githubusercontent.com/DarinM223/smlgen/master/build_polyml.sh) that generates a `build.sml` PolyML file from a `.mlb` file. Then replace all of the use statements to `extended-basis` files with:
 
 ```sml
-OS.FileSys.chDir "lib/github.com/DarinM223/extended-basis";
-use "basis.sml";
-OS.FileSys.chDir "../../../../";
+useProject "lib/github.com/DarinM223/extended-basis" "basis.sml";
 ```
 
 Then replace the
@@ -54,7 +52,5 @@ use "lib/github.com/DarinM223/random/detail/ml/common/random-dev.sml";
 Finally replace the use statments to `generic` with:
 
 ```sml
-OS.FileSys.chDir "lib/github.com/DarinM223/generic";
-use "lib-all.sml";
-OS.FileSys.chDir "../../../../";
+useProject "lib/github.com/DarinM223/generic" "lib-all.sml";
 ```
