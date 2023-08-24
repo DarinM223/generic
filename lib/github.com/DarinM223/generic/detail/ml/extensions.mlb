@@ -5,9 +5,10 @@
  *)
 
 local
-   $(MLTON_LIB)/com/ssh/extended-basis/unstable/basis.mlb
+   ../../../extended-basis/basis.mlb
+   $(SML_LIB)/basis/mlton.mlb
 in
-   ../common/cast-real.sig
-   cast-real.sml
-   pack-real.sml
+   cast-real.common.sig
+   cast-real.mlton.sml
+   pack-real.mlton.sml
 end

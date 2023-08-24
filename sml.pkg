@@ -1,9 +1,9 @@
 package github.com/DarinM223/generic
 
 require {
-  github.com/DarinM223/extended-basis 0.0.3 #7226d9c558799501be98e8aa1222fdfd16e9ed94
+  github.com/DarinM223/extended-basis 0.0.4 #664ace4ec0acb7d3da84796277cf1ddede80b3d7
   github.com/DarinM223/prettier 0.0.1 #c091ebee9433b8015b3160c68a8af8351e3599a9
-  github.com/DarinM223/random 0.0.2 #c5537e35a57dfddd401d6af8cf3afdf22407bbca
+  github.com/DarinM223/random 0.0.3 #401632667ecb67eb85c3a5b219f831a8381c75aa
   github.com/DarinM223/ds 0.0.1 #53dbb2f8b951029e8cd05123e0b0e61a87d1ed1c
   github.com/DarinM223/parsec 0.0.1 #31fed7966d1a979f49d960419ff4eb15c787ec42
 }

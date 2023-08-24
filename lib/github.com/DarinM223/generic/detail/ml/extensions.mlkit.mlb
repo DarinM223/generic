@@ -4,9 +4,10 @@
  * See the LICENSE file or http://mlton.org/License for details.
  *)
 
-group is
-   $c/c.cm
-   ../../../../extended-basis/basis.cm
-   ../common/cast-real.sig
-   cast-real.sml
-   pack-real.sml
+local
+   ../../../extended-basis/basis.mlkit.mlb
+in
+   cast-real.common.sig
+   cast-real.mlkit.sml
+   pack-real.mlkit.sml
+end

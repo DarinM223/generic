@@ -18,7 +18,7 @@ in
    in
       local
          (* Extensions *)
-         detail/ml/mlton/extensions.mlb
+         detail/ml/extensions.mlb
 
          (* Support *)
 

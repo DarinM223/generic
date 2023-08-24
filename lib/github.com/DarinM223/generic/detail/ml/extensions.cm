@@ -4,11 +4,9 @@
  * See the LICENSE file or http://mlton.org/License for details.
  *)
 
-local
-   ../../../../extended-basis/basis.mlb
-   $(SML_LIB)/basis/mlton.mlb
-in
-   ../common/cast-real.sig
-   cast-real.sml
-   pack-real.sml
-end
+group is
+   $/c/c.cm
+   ../../../extended-basis/basis.cm
+   cast-real.common.sig
+   cast-real.smlnj.sml
+   pack-real.smlnj.sml
