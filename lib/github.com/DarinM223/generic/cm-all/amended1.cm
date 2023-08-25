@@ -1,0 +1,12 @@
+group
+    library(../lib.cm) - (
+        signature Generic
+        structure Generic
+        functor MkGeneric
+    )
+    signature Generic
+    structure Generic
+    functor MkGeneric
+is
+    ../lib.cm
+    ../with/generic.sml

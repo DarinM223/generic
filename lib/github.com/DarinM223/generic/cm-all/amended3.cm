@@ -1,0 +1,12 @@
+ group
+    group(amended2.cm) - (
+        signature Generic
+        structure Generic
+        functor MkGeneric
+    )
+    signature Generic
+    structure Generic
+    functor MkGeneric
+is
+    amended2.cm
+    ../with/type-hash.sml

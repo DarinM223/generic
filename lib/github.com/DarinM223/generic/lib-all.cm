@@ -1,14 +1,7 @@
 library
   library(lib.cm)
-  source(-)
+  signature Generic
+  structure Generic
+  functor MkGeneric
 is
-  lib.cm
-  with/generic.sml
-  with/eq.sml
-  with/type-hash.sml
-  with/type-info.sml
-  with/hash.sml
-  with/uniplate.sml
-  with/ord.sml
-  with/pretty.sml
-  with/close-pretty-with-extra.sml
+  ./cm-all/amended9.cm

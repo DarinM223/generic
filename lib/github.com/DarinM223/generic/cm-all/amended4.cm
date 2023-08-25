@@ -1,0 +1,12 @@
+ group
+    group(amended3.cm) - (
+        signature Generic
+        structure Generic
+        functor MkGeneric
+    )
+    signature Generic
+    structure Generic
+    functor MkGeneric
+is
+    amended3.cm
+    ../with/type-info.sml

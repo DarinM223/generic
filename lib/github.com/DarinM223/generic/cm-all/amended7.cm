@@ -1,0 +1,12 @@
+ group
+    group(amended6.cm) - (
+        signature Generic
+        structure Generic
+        functor MkGeneric
+    )
+    signature Generic
+    structure Generic
+    functor MkGeneric
+is
+    amended6.cm
+    ../with/ord.sml
