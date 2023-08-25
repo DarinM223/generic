@@ -1,10 +1,19 @@
+structure PackRealBig         : PACK_REAL where type real = Real.real =
+   PackReal64Big
+structure PackRealLittle      : PACK_REAL where type real = Real.real =
+   PackReal64Little
+structure PackLargeRealBig    : PACK_REAL where type real = LargeReal.real =
+   PackReal64Big
+structure PackLargeRealLittle : PACK_REAL where type real = LargeReal.real =
+   PackReal64Little
+
 (* Copyright (C) 2007 Vesa Karvonen
  *
  * This code is released under the MLton license, a BSD-style license.
  * See the LICENSE file or http://mlton.org/License for details.
  *)
 
-local
+(* local
    functor MkPackReal (include CAST_REAL
                        val isBigEndian : bool) : PACK_REAL = struct
       val (toBits, fromBits) = valOf isoBits
@@ -56,4 +65,4 @@ in
       PackReal64Big
    structure PackLargeRealLittle : PACK_REAL where type real = LargeReal.real =
       PackReal64Little
-end
+end *)

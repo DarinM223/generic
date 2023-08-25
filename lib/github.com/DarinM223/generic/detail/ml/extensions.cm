@@ -5,8 +5,8 @@
  *)
 
 group is
-   $/c/c.cm
+   (* $/c/c.cm *)
    ../../../extended-basis/basis.cm
    cast-real.common.sig
-   cast-real.smlnj.sml
+   cast-real.mlkit.sml
    pack-real.smlnj.sml
