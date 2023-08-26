@@ -1,0 +1,142 @@
+(* Copyright (C) 2007-2008 SSH Communications Security, Helsinki, Finland
+ *
+ * This code is released under the MLton license, a BSD-style license.
+ * See the LICENSE file or http://mlton.org/License for details.
+ *)
+
+local
+   ../extended-basis/basis.mlkit.mlb
+   ../prettier/lib.mlkit.mlb
+   ../random/lib.mlkit.mlb
+   ../ds/lib.mlkit.mlb
+   ../parsec/lib.mlkit.mlb
+in
+   ann
+      "forceUsed"
+      "sequenceNonUnit warn"
+      "warnUnused true"
+   in
+      local
+         (* Extensions *)
+         detail/ml/extensions.mlkit.mlb
+
+         (* Support *)
+
+         public/framework/generics.sig
+         detail/framework/generics.sml
+
+         public/framework/ty.sig
+         detail/framework/ty.sml
+
+         (* Concepts *)
+
+         public/framework/closed-rep.sig
+         public/framework/closed-cases.sig
+         public/framework/open-rep.sig
+         public/framework/open-cases.sig
+         public/framework/cases.sig
+         public/framework/rep.sig
+         public/framework/generic.sig
+
+         (* Utilities *)
+
+         public/util/generics-util.sig
+         detail/util/generics-util.sml
+         detail/util/ops.sml
+         detail/util/opt-int.sml (* XXX Should really go to Extended Basis? *)
+         detail/util/hash-univ.sml
+
+         (* Framework *)
+
+         detail/framework/root-generic.sml
+         detail/framework/close-generic.fun
+         public/framework/layered-rep.sig
+         public/framework/layer-dep-cases-fun.sig
+         public/framework/layer-cases-fun.sig
+         public/framework/layer-rep-fun.sig
+         detail/framework/layer-generic.fun
+
+         (* Values *)
+
+         public/value/type-info.sig
+         detail/value/type-info.sml
+
+         public/value/data-rec-info.sig
+         detail/value/data-rec-info.sml
+
+         public/value/type-hash.sig
+         detail/value/type-hash.sml
+
+         public/value/hash.sig
+         detail/value/hash.sml
+
+         public/value/some.sig
+         detail/value/some.sml
+
+         public/value/arbitrary.sig
+         detail/value/arbitrary.sml
+
+         local
+            detail/util/sml-syntax.sml
+         in
+            detail/value/debug.sml
+         end
+
+         public/value/dynamic.sig
+         detail/value/dynamic.sml
+
+         public/value/enum.sig
+         detail/value/enum.sml
+
+         public/value/eq.sig
+         detail/value/eq.sml
+
+         public/value/fmap.sig
+         detail/value/fmap.sml
+
+         public/value/uniplate.sig
+         detail/value/uniplate.sml
+
+         public/value/ord.sig
+         detail/value/ord.sml
+
+         public/value/pickle.sig
+         detail/value/pickle.sml
+
+         public/value/pretty.sig
+         detail/value/pretty.sml
+
+         public/value/read.sig
+         detail/value/read.sml
+
+         public/value/reduce.sig
+         detail/value/reduce.sml
+
+         public/value/seq.sig
+         detail/value/seq.sml
+
+         public/value/size.sig
+         detail/value/size.sml
+
+         public/value/shrink.sig
+         detail/value/shrink.sml
+
+         public/value/transform.sig
+         detail/value/transform.sml
+
+         public/value/type-exp.sig
+         detail/value/type-exp.sml
+
+         (* Extra *)
+
+         public/extra/generic-extra.sig
+         detail/extra/with-extra.fun
+
+         detail/extra/close-pretty-with-extra.fun
+
+         detail/extra/reg-basis-exns.fun
+      in
+         public/export.sml
+      end
+   end
+end
