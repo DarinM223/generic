@@ -1,5 +1,5 @@
  group
-    group(amended8.cm) - (
+    group(amended9.cm) - (
         signature Generic
         structure Generic
         functor MkGeneric
@@ -8,6 +8,5 @@
     structure Generic
     functor MkGeneric
 is
-    amended8.cm
-    ../../random/lib.cm
-    ../with/arbitrary.sml
+    amended9.cm
+    ../with/size.sml

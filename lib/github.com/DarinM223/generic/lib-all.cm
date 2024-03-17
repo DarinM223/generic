@@ -4,4 +4,4 @@ library
   structure Generic
   functor MkGeneric
 is
-  ./cm-all/amended9.cm
+  ./cm-all/amended12.cm
